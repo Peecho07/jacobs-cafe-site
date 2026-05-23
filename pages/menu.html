@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jacob's Cafe full menu — breakfast, signature dishes, bowls, sandwiches, gelato, coffee and more in Waterford Lakes, Orlando FL.">
+  <title>Menu — Jacob's Cafe & Restaurant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="announcement">
+  Order for delivery via &nbsp;<a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank">Uber Eats</a>&nbsp; · Dine-in welcome 8am daily
+</div>
+
+<nav class="nav">
+  <a href="../index.html" class="nav-logo">
+    <img src="https://jacobscafe.net/images/logo.png" alt="Jacob's Cafe"
+         onerror="this.outerHTML='<span style=\'font-family:var(--serif);font-size:20px;color:var(--charcoal)\'>Jacob\'s Café</span>'">
+  </a>
+  <ul class="nav-links">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="menu.html" class="active">Menu</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <a href="../index.html#assistant" class="nav-chat"><span class="online-dot"></span> Ask anything</a>
+    <a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ"
+       target="_blank" rel="noopener" class="nav-order">Order on Uber Eats</a>
+  </div>
+  <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="../index.html" onclick="toggleMenu()">Home</a>
+  <a href="menu.html" onclick="toggleMenu()">Menu</a>
+  <a href="about.html" onclick="toggleMenu()">About</a>
+  <a href="contact.html" onclick="toggleMenu()">Contact</a>
+  <a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="m-order">Order on Uber Eats</a>
+</div>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <span class="eyebrow page-hero-eyebrow">Our menu</span>
+  <h1 class="page-hero-title">Every craving,<br><em>covered.</em></h1>
+  <p class="page-hero-sub">From hearty breakfasts to hand-crafted gelato — fresh ingredients, bold flavors, made with care every single day.</p>
+</div>
+
+<!-- BREAKFAST -->
+<section class="menu-page-section" id="breakfast">
+  <span class="eyebrow">Morning favorites</span>
+  <h2 class="section-title">Breakfast</h2>
+  <table class="menu-table">
+    <tbody>
+      <tr>
+        <td class="item-name">Belgian Waffle</td>
+        <td class="item-desc">Classic Belgian-style, crisp outside and fluffy inside. Served with syrup.</td>
+        <td class="item-price">$11.00</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+      <tr>
+        <td class="item-name">2 Egg & Cheese on a Croissant</td>
+        <td class="item-desc">Scrambled eggs with cheese on a buttery croissant.</td>
+        <td class="item-price">$11.40</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+      <tr>
+        <td class="item-name">3 Eggs French Omelet</td>
+        <td class="item-desc">Folded with your choice of turkey, cheese, spinach, tomato, or onion.</td>
+        <td class="item-price">$13.80</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+      <tr>
+        <td class="item-name">Avocado Toast</td>
+        <td class="item-desc">Fresh avocado on toasted artisan bread. Simple, clean, satisfying.</td>
+        <td class="item-price">$13.80</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+      <tr>
+        <td class="item-name">Veggie Egg White Wrap</td>
+        <td class="item-desc">Egg whites, fresh vegetables, wrapped and ready to go.</td>
+        <td class="item-price">$12.90</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+      <tr>
+        <td class="item-name">Granola Bowl</td>
+        <td class="item-desc">House granola with fresh toppings — light, nourishing, and delicious.</td>
+        <td class="item-price">$12.90</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+      <tr>
+        <td class="item-name">Menemen</td>
+        <td class="item-desc">Traditional Turkish egg dish with tomatoes, peppers, and spices.</td>
+        <td class="item-price">$16.80</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- SIGNATURES -->
+<section class="menu-page-section" id="signatures">
+  <span class="eyebrow">Chef's choice</span>
+  <h2 class="section-title">Signature dishes</h2>
+  <table class="menu-table">
+    <tbody>
+      <tr>
+        <td class="item-name">Garlic Butter Ribeye Steak</td>
+        <td class="item-desc">Prime ribeye finished in garlic butter. Rich, bold, unforgettable.</td>
+        <td class="item-price">Market price</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+      <tr>
+        <td class="item-name">Jacob's Meatballs</td>
+        <td class="item-desc">House-seasoned meatballs in a rich slow-cooked sauce.</td>
+        <td class="item-price">Market price</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+      <tr>
+        <td class="item-name">Creamy Mushroom Chicken</td>
+        <td class="item-desc">Tender chicken breast in a creamy mushroom reduction.</td>
+        <td class="item-price">Market price</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+      <tr>
+        <td class="item-name">Chicken Alfredo</td>
+        <td class="item-desc">Grilled chicken over fettuccine in a classic Alfredo cream sauce.</td>
+        <td class="item-price">Market price</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- BOWLS -->
+<section class="menu-page-section" id="bowls">
+  <span class="eyebrow">Fresh & filling</span>
+  <h2 class="section-title">Bowls & salads</h2>
+  <table class="menu-table">
+    <tbody>
+      <tr>
+        <td class="item-name">Chicken Bowl</td>
+        <td class="item-desc">Grilled chicken, fresh greens, and vibrant toppings on your choice of base.</td>
+        <td class="item-price">$21.40</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+      <tr>
+        <td class="item-name">Steak Bowl</td>
+        <td class="item-desc">Sliced steak over a customizable bowl base with fresh seasonal toppings.</td>
+        <td class="item-price">Market price</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+      <tr>
+        <td class="item-name">Meatball Bowl</td>
+        <td class="item-desc">House meatballs over your base of choice with rich sauce and toppings.</td>
+        <td class="item-price">Market price</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+      <tr>
+        <td class="item-name">Veggie Bowl</td>
+        <td class="item-desc">Plant-based, packed with flavor and fresh seasonal vegetables.</td>
+        <td class="item-price">Market price</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- SANDWICHES -->
+<section class="menu-page-section" id="sandwiches">
+  <span class="eyebrow">Handheld classics</span>
+  <h2 class="section-title">Sandwiches & hot dogs</h2>
+  <table class="menu-table">
+    <tbody>
+      <tr>
+        <td class="item-name">Jacob's Ribeye Steak Sandwich</td>
+        <td class="item-desc">Our #1 item. Tender ribeye on a toasted roll — bold, satisfying, unforgettable.</td>
+        <td class="item-price">$15.40</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+      <tr>
+        <td class="item-name">Jacob's Chicken Sandwich</td>
+        <td class="item-desc">Crispy or grilled chicken with house sauce on a toasted bun.</td>
+        <td class="item-price">$13.40</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+      <tr>
+        <td class="item-name">Beef Empanada</td>
+        <td class="item-desc">Hand-folded pastry filled with seasoned beef. Perfect starter or snack.</td>
+        <td class="item-price">$6.35</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+      <tr>
+        <td class="item-name">Wagyu Hot Dog</td>
+        <td class="item-desc">Premium wagyu beef frank with house toppings on a toasted bun.</td>
+        <td class="item-price">Market price</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- COFFEE -->
+<section class="menu-page-section" id="coffee">
+  <span class="eyebrow">For every mood</span>
+  <h2 class="section-title">Coffee, tea & drinks</h2>
+  <table class="menu-table">
+    <tbody>
+      <tr>
+        <td class="item-name">Specialty Latte</td>
+        <td class="item-desc">Expertly pulled espresso with steamed milk. Iced or hot.</td>
+        <td class="item-price">$6.50</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+      <tr>
+        <td class="item-name">Matcha Green Tea Latte</td>
+        <td class="item-desc">Premium ceremonial matcha whisked with steamed milk. Iced or hot.</td>
+        <td class="item-price">$6.00</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+      <tr>
+        <td class="item-name">Chai Tea Latte</td>
+        <td class="item-desc">Spiced chai concentrate with steamed milk. Warming and aromatic.</td>
+        <td class="item-price">$6.00</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+      <tr>
+        <td class="item-name">Milkshake</td>
+        <td class="item-desc">House-blended milkshake in seasonal flavors. Ask your server for today's options.</td>
+        <td class="item-price">Market price</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- GELATO -->
+<section class="menu-page-section" id="gelato">
+  <span class="eyebrow">Made in-house daily</span>
+  <h2 class="section-title">Gelato & desserts</h2>
+  <table class="menu-table">
+    <tbody>
+      <tr>
+        <td class="item-name">House-made Gelato</td>
+        <td class="item-desc">Crafted in-house from premium ingredients. Multiple flavors — ask your server for today's selection.</td>
+        <td class="item-price">$8.00</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+      <tr>
+        <td class="item-name">Sorbet</td>
+        <td class="item-desc">Dairy-free frozen fruit sorbet. Light, refreshing, house-made.</td>
+        <td class="item-price">Market price</td>
+        <td class="item-order"><a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="menu-cta">Order</a></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div>
+      <div class="footer-logo">
+        <img src="https://jacobscafe.net/images/logo.png" alt="Jacob's Cafe"
+             onerror="this.outerHTML='<span style=\'font-family:var(--serif);font-size:20px;color:rgba(247,243,238,.7)\'>Jacob\'s Café</span>'">
+      </div>
+      <p class="footer-tagline">Where culinary artistry meets a warm and inviting atmosphere in Waterford Lakes, Orlando FL.</p>
+    </div>
+    <div class="footer-col">
+      <div class="footer-head">Visit us</div>
+      <p>12789 Waterford Lakes Pkwy</p>
+      <p>Suite 1, Orlando FL 32828</p>
+      <a href="tel:+14072334080">(407) 233-4080</a>
+    </div>
+    <div class="footer-col">
+      <div class="footer-head">Hours</div>
+      <p>Mon–Fri: 8:00 AM – 8:00 PM</p>
+      <p>Sat–Sun: 8:00 AM – 7:00 PM</p>
+    </div>
+    <div class="footer-col">
+      <div class="footer-head">Follow along</div>
+      <a href="https://www.instagram.com/jacobscaferestaurant/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.facebook.com/people/Jacobs-Cafe-Restaurant/61568879367243/" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://g.co/kgs/9xdSg7a" target="_blank" rel="noopener">Google Reviews</a>
+      <a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" rel="noopener">Order on Uber Eats</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2026 Jacob's Cafe & Restaurant · All rights reserved</span>
+    <div class="footer-social">
+      <a href="https://www.instagram.com/jacobscaferestaurant/" target="_blank">Instagram</a>
+      <a href="https://g.co/kgs/9xdSg7a" target="_blank">Google Maps</a>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

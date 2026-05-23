@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About Jacob's Cafe — a locally owned restaurant in Waterford Lakes, Orlando FL, blending Italian gelato tradition with bold signature dishes.">
+  <title>About — Jacob's Cafe & Restaurant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="announcement">Now on Uber Eats &nbsp;·&nbsp; Outdoor patio seating available &nbsp;·&nbsp; Mon–Fri 8am–8pm</div>
+
+<nav class="nav">
+  <a href="../index.html" class="nav-logo">
+    <img src="https://jacobscafe.net/images/logo.png" alt="Jacob's Cafe"
+         onerror="this.outerHTML='<span style=\'font-family:var(--serif);font-size:20px;color:var(--charcoal)\'>Jacob\'s Café</span>'">
+  </a>
+  <ul class="nav-links">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="about.html" class="active">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <a href="../index.html#assistant" class="nav-chat"><span class="online-dot"></span> Ask anything</a>
+    <a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" rel="noopener" class="nav-order">Order on Uber Eats</a>
+  </div>
+  <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="../index.html" onclick="toggleMenu()">Home</a>
+  <a href="menu.html" onclick="toggleMenu()">Menu</a>
+  <a href="about.html" onclick="toggleMenu()">About</a>
+  <a href="contact.html" onclick="toggleMenu()">Contact</a>
+  <a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" class="m-order">Order on Uber Eats</a>
+</div>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <span class="eyebrow page-hero-eyebrow">Our story</span>
+  <h1 class="page-hero-title">A cafe built on<br><em>genuine hospitality.</em></h1>
+  <p class="page-hero-sub">We believe great food and warm service can make anyone feel at home. That belief is what Jacob's Cafe is built on, every single day.</p>
+</div>
+
+<!-- STORY SPLIT -->
+<section class="split" style="border-top:none">
+  <div class="split-media">
+    <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=1000&q=85" alt="Jacob's Cafe interior" loading="eager">
+    <div class="split-badge">
+      <div class="split-badge-label">Locally owned</div>
+      <div class="split-badge-val">Waterford Lakes, Orlando</div>
+    </div>
+  </div>
+  <div class="split-content">
+    <span class="eyebrow">Who we are</span>
+    <h2 class="section-title" style="margin-bottom:20px">More than a<br><em>restaurant.</em></h2>
+    <p class="split-body">Nestled in the heart of Waterford Lakes, Jacob's Café was born from a simple passion: to create a space where food brings people together. We blend Italian gelato tradition with bold Mediterranean-inspired signature dishes, Turkish breakfast classics, and a specialty coffee program that makes every morning worth waking up for.<br><br>Our recently renovated space carries a warm European aesthetic — every detail was chosen to make you feel welcome, whether you're stopping in for a solo espresso, a weekend brunch with family, or a long evening meal with friends.<br><br>As a locally owned business, we're deeply connected to the Orlando community. When you dine with us, you're supporting a family — and we never forget that.</p>
+    <a href="contact.html" class="btn-dark" style="align-self:flex-start">Find & visit us</a>
+  </div>
+</section>
+
+<!-- PHOTO GRID -->
+<div class="about-grid">
+  <div class="about-img">
+    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80" alt="Cafe ambiance" loading="lazy">
+  </div>
+  <div class="about-img">
+    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80" alt="Plated food" loading="lazy">
+  </div>
+  <div class="about-img">
+    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80" alt="Coffee service" loading="lazy">
+  </div>
+  <div class="about-img">
+    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80" alt="Fine plating" loading="lazy">
+  </div>
+</div>
+
+<!-- VALUES -->
+<section class="section" style="background:var(--cream)">
+  <div class="section-header">
+    <div>
+      <span class="eyebrow">What drives us</span>
+      <h2 class="section-title">Our values</h2>
+    </div>
+  </div>
+  <div class="values-grid">
+    <div class="value-card">
+      <div class="value-icon"><i class="ti ti-leaf" aria-hidden="true"></i></div>
+      <h3 class="value-title">Fresh ingredients</h3>
+      <p class="value-desc">We source fresh, quality ingredients and prepare everything in-house — from our house-made gelato to our sauces and seasonings. If it doesn't meet our standard, it doesn't reach your table.</p>
+    </div>
+    <div class="value-card">
+      <div class="value-icon"><i class="ti ti-heart" aria-hidden="true"></i></div>
+      <h3 class="value-title">Genuine warmth</h3>
+      <p class="value-desc">Every guest is treated like family. Our staff is trained to be attentive, knowledgeable, and genuinely happy to have you here. The food is great — the people make it exceptional.</p>
+    </div>
+    <div class="value-card">
+      <div class="value-icon"><i class="ti ti-map-pin" aria-hidden="true"></i></div>
+      <h3 class="value-title">Community roots</h3>
+      <p class="value-desc">We're not a chain. We're your neighbors. Jacob's Cafe is locally owned and deeply connected to the Waterford Lakes and UCF community — your support keeps us here and keeps us growing.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div>
+      <div class="footer-logo">
+        <img src="https://jacobscafe.net/images/logo.png" alt="Jacob's Cafe"
+             onerror="this.outerHTML='<span style=\'font-family:var(--serif);font-size:20px;color:rgba(247,243,238,.7)\'>Jacob\'s Café</span>'">
+      </div>
+      <p class="footer-tagline">Where culinary artistry meets a warm and inviting atmosphere in Waterford Lakes, Orlando FL.</p>
+    </div>
+    <div class="footer-col">
+      <div class="footer-head">Visit us</div>
+      <p>12789 Waterford Lakes Pkwy</p>
+      <p>Suite 1, Orlando FL 32828</p>
+      <a href="tel:+14072334080">(407) 233-4080</a>
+    </div>
+    <div class="footer-col">
+      <div class="footer-head">Hours</div>
+      <p>Mon–Fri: 8:00 AM – 8:00 PM</p>
+      <p>Sat–Sun: 8:00 AM – 7:00 PM</p>
+    </div>
+    <div class="footer-col">
+      <div class="footer-head">Follow along</div>
+      <a href="https://www.instagram.com/jacobscaferestaurant/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.facebook.com/people/Jacobs-Cafe-Restaurant/61568879367243/" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://g.co/kgs/9xdSg7a" target="_blank" rel="noopener">Google Reviews</a>
+      <a href="https://www.ubereats.com/store/jacobs-cafe-restaurants/9MD_deT8Xo-YVJIxl2iWDQ" target="_blank" rel="noopener">Order on Uber Eats</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2026 Jacob's Cafe & Restaurant · All rights reserved</span>
+    <div class="footer-social">
+      <a href="https://www.instagram.com/jacobscaferestaurant/" target="_blank">Instagram</a>
+      <a href="https://g.co/kgs/9xdSg7a" target="_blank">Google Maps</a>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
