@@ -9,7 +9,7 @@
 
 (function () {
   // ── UPDATE THIS to your live Replit URL ──
-  const BOT_URL = "https://jacobs-cafe-chatbot.AnthonyPichardo.repl.co";
+ const BOT_URL = "https://6471d799-76c1-469c-a387-ac5ac29f557a-00-2qg025s8436be.picard.replit.dev";
   
 
   // ── SUGGESTED PROMPTS shown before user types ──
